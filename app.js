@@ -1,9 +1,7 @@
 import Vue from 'vue'
-import DesignLib from '@slava/renault-design-lib'
+import '@slava/renault-design-lib/global/global.scss'
 
 import App from './App.vue'
-
-DesignLib(Vue)
 
 new Vue({
     el: '#app',

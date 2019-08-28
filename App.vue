@@ -51,7 +51,15 @@
 </template>
 
 <script>
+    import Btn from '@slava/renault-design-lib/btn/Btn'
+    import Icon from '@slava/renault-design-lib/icons/Icon'
+
     export default {
+
+        components: {
+            Btn,
+            Icon,
+        },
 
         data: () => ({
             disabledToggle: false,
