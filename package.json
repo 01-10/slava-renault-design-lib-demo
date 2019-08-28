@@ -1,0 +1,31 @@
+{
+  "name": "renault-design-lib-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ENV=production NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "ENV=development NODE_ENV=development webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "scss-loader": "0.0.1",
+    "url-loader": "^2.1.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-router": "^3.1.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "author": "Vladimir Pyatnitskiy",
+  "license": "ISC",
+  "dependencies": {
+    "@slava/renault-design-lib": "0.0.1"
+  }
+}
